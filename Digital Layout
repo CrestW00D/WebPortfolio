@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <title>Network Manager Portfolio</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:'Cormorant Garamond', serif;
+            background-color:#d9d9d9;
+        }
+
+        .topbar{
+            background:black;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px 30px;
+        }
+
+        .logo{
+            width:70px;
+        }
+
+        .search{
+            width:350px;
+            padding:10px;
+            border-radius:8px;
+            border:none;
+        }
+
+        nav{
+            display:flex;
+            gap:40px;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:white;
+            font-size:25px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:gold;
+        }
+
+        /* HERO */
+
+        .hero{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            padding:50px;
+        }
+
+        .hero-text{
+            width:50%;
+            text-align:center;
+        }
+
+        .hero-text h1{
+            font-size:70px;
+            margin-bottom:10px;
+        }
+
+        .hero-text h2{
+            font-size:45px;
+            margin-top:0;
+        }
+
+        .hero-text p{
+            font-size:30px;
+        }
+
+        .hero img{
+            width:300px;
+            border:3px solid rgb(0, 0, 0);
+        }
+
+        hr{
+            border:2px solid black;
+        }
+
+        section{
+            padding:20px;
+        }
+
+        section h1{
+            text-align:center;
+            font-size:70px;
+            margin-top:0;
+        }
+
+        /* SERVICES */
+
+        .cards{
+            display:flex;
+            justify-content:space-around;
+            flex-wrap:wrap;
+            text-align:center;
+        }
+
+        .card{
+            width:300px;
+            padding:20px;
+        }
+
+        .card img{
+            width:150px;
+            height:150px;
+        }
+
+        .card h2{
+            font-size:40px;
+        }
+
+        .card p{
+            font-size:28px;
+        }
+
+        /* ABOUT CONTACT */
+
+        .bottom{
+            display:flex;
+        }
+
+        .about,
+        .contact{
+            width:50%;
+            padding:20px;
+        }
+
+        .about{
+            border-right:3px solid black;
+        }
+
+        .about h1,
+        .contact h1{
+            text-align:center;
+            font-size:60px;
+        }
+
+        .about-content{
+            display:flex;
+            gap:20px;
+            align-items:center;
+        }
+
+        .about-content img{
+            width:180px;
+            border:2px solid black;
+        }
+
+        .about-content p{
+            font-size:32px;
+        }
+
+        .contact p{
+            font-size:32px;
+            margin-bottom:40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topbar">
+
+        <img src="logo.png" class="logo">
+
+        <input type="text" class="search" placeholder="Search">
+
+        <nav>
+            <a href="#about">ABOUT</a>
+            <a href="#services">SERVICES</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+
+    </div>
+
+    <!-- HOME -->
+
+    <div class="hero">
+
+        <div class="hero-text">
+
+            <h1>Rigel Karl D. Contrevida</h1>
+
+            <h2>Network Manager</h2>
+
+            <p>
+                Managing secure, reliable and high performance networks
+                for businesses and organizations. Passionate about
+                cybersecurity, cloud systems, and efficient network
+                operations.
+            </p>
+
+        </div>
+
+        <img src="profile.jpg" alt="Profile Picture">
+
+    </div>
+
+    <hr>
+
+    <!-- SERVICES -->
+
+    <section id="services">
+
+        <h1>Services</h1>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="network.png">
+                <h2>Network Administration</h2>
+                <p>
+                    Managing routers, switches, and enterprise
+                    network systems to ensure stable connectivity.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="security.png">
+                <h2>Cybersecurity Monitoring</h2>
+                <p>
+                    Protecting systems from threats,
+                    unauthorized access, and security
+                    vulnerabilities.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="server.png">
+                <h2>Server Management</h2>
+                <p>
+                    Maintaining servers, backups,
+                    and cloud based infrastructure
+                    for efficient operations.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!-- PORTFOLIO -->
+
+    <section id="portfolio">
+
+        <h1>Portfolio</h1>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="tools.png">
+                <h2>Enterprise Network Setup</h2>
+                <p>
+                    Designed and configured a secure
+                    multi department office network environment.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="wifi.png">
+                <h2>Wireless Infrastructure Deployment</h2>
+                <p>
+                    Installed and optimized high speed
+                    wireless access points for stable connectivity.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="backup.png">
+                <h2>Data Backup System</h2>
+                <p>
+                    Developed automated backup solutions
+                    to protect important company data.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!-- ABOUT & CONTACT -->
+
+    <div class="bottom">
+
+        <div class="about" id="about">
+
+            <h1>About</h1>
+
+            <div class="about-content">
+
+                <img src="about.jpg">
+
+                <p>
+                    I am a professional Network Manager with
+                    experience in handling network, server
+                    maintenance, cybersecurity systems,
+                    and IT infrastructure.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="contact" id="contact">
+
+            <h1>Contact</h1>
+
+            <p>📧 s2502077@usls.edu.ph</p>
+
+            <p>📍 Victorias City, BRGY 5, Lopez St., Negros Occidental</p>
+
+            <p>📞 09391959407</p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
