@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+
+    <title>Network Manager Portfolio</title>
+
+    <style>
+
+        .material-symbols-outlined{
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+
+        body{
+            margin:0;
+            font-family:'Cormorant Garamond', serif;
+            background-color:#d9d9d9;
+        }
+
+        .topbar{
+            background:black;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px 30px;
+        }
+
+        .logo{
+            width:70px;
+        }
+
+        .search{
+            width:350px;
+            padding:10px;
+            border-radius:8px;
+            border:none;
+            pointer-events:none;
+        }
+
+        nav{
+            display:flex;
+            gap:25px;
+        }
+
+        nav a{
+            text-decoration:none;
+            color:white;
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        .home{
+            display:flex;
+            justify-content:space-around;
+            align-items:center;
+            padding:50px;
+        }
+
+        .home-text{
+            width:50%;
+            text-align:center;
+        }
+
+        .home-text h1{
+            font-size:70px;
+            margin-bottom:10px;
+        }
+
+        .home-text h2{
+            font-size:45px;
+            margin-top:0;
+        }
+
+        .home-text p{
+            font-size:28px;
+        }
+
+        .hero img{
+            width:300px;
+            border:3px solid black;
+        }
+
+        hr{
+            border:2px solid black;
+        }
+
+        section{
+            padding:20px;
+        }
+
+        section h1{
+            text-align:center;
+            font-size:70px;
+            margin-top:0;
+        }
+
+        .cards{
+            display:flex;
+            justify-content:space-around;
+            flex-wrap:wrap;
+            text-align:center;
+        }
+
+        .card{
+            width:300px;
+            padding:20px;
+        }
+
+        .service-icon{
+            font-size:100px;
+        }
+
+        .card h2{
+            font-size:35px;
+        }
+
+        .card p{
+            font-size:24px;
+        }
+
+        .bottom{
+            display:flex;
+        }
+
+        .about,
+        .contact{
+            width:50%;
+            padding:20px;
+        }
+
+        .about{
+            border-right:3px solid black;
+        }
+
+        .about h1,
+        .contact h1{
+            text-align:center;
+            font-size:60px;
+        }
+
+        .about-content{
+            display:flex;
+            gap:20px;
+            align-items:center;
+        }
+
+        .about-content img{
+            width:180px;
+            border:2px solid black;
+        }
+
+        .about-content p{
+            font-size:28px;
+        }
+
+        .contact p{
+            font-size:28px;
+            margin-bottom:35px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+
+    <div class="topbar">
+
+        <img src="logo.png" alt="Logo" class="logo">
+
+        <input type="text" class="search" placeholder="Search">
+        
+        <nav>
+
+            <a>
+                <span class="material-symbols-outlined">person</span>
+                ABOUT
+            </a>
+
+            <a>
+                <span class="material-symbols-outlined">build</span>
+                SERVICES
+            </a>
+
+            <a>
+                <span class="material-symbols-outlined">work</span>
+                PORTFOLIO
+            </a>
+
+            <a>
+                <span class="material-symbols-outlined">call</span>
+                CONTACT
+            </a>
+
+        </nav>
+
+    </div>
+
+    <!-- HOME SECTION -->
+
+    <div class="home">
+
+        <div class="home-text">
+
+            <h1>Rigel Karl D. Contrevida</h1>
+
+            <h2>Network Manager</h2>
+
+            <p>
+                Managing secure, reliable, and high-performance networks
+                for businesses and organizations. Specializing in
+                cybersecurity, server management, and network infrastructure.
+            </p>
+
+        </div>
+
+        <img src="profile.jpg" alt="Profile Picture">
+
+    </div>
+
+    <hr>
+
+    <!-- SERVICES -->
+
+    <section id="services">
+
+        <h1>Services</h1>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <span class="material-symbols-outlined service-icon">
+                    dns
+                </span>
+
+                <h2>Network Administration</h2>
+
+                <p>
+                    Managing routers, switches, and enterprise network systems
+                    to ensure stable and efficient connectivity.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <span class="material-symbols-outlined service-icon">
+                    security
+                </span>
+
+                <h2>Cybersecurity Monitoring</h2>
+
+                <p>
+                    Protecting systems against threats, vulnerabilities,
+                    and unauthorized access.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <span class="material-symbols-outlined service-icon">
+                    storage
+                </span>
+
+                <h2>Server Management</h2>
+
+                <p>
+                    Maintaining servers, backups, and cloud infrastructure
+                    for reliable operations.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!-- PORTFOLIO -->
+
+    <section id="portfolio">
+
+        <h1>Portfolio</h1>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <span class="material-symbols-outlined service-icon">
+                    hub
+                </span>
+
+                <h2>Enterprise Network Setup</h2>
+
+                <p>
+                    Designed and configured secure office network
+                    infrastructures for organizations.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <span class="material-symbols-outlined service-icon">
+                    wifi
+                </span>
+
+                <h2>Wireless Deployment</h2>
+
+                <p>
+                    Installed and optimized wireless access points
+                    for maximum coverage and performance.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <span class="material-symbols-outlined service-icon">
+                    backup
+                </span>
+
+                <h2>Backup Solutions</h2>
+
+                <p>
+                    Developed automated backup and disaster recovery
+                    systems for business continuity.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <!-- ABOUT & CONTACT -->
+
+    <div class="bottom">
+
+        <div class="about">
+
+            <h1>About</h1>
+
+            <div class="about-content">
+
+                <img src="about.jpg" alt="About Me">
+
+                <p>
+                    I am a Network Manager with experience in managing
+                    enterprise networks, cybersecurity solutions,
+                    server administration, and IT infrastructure.
+                    My goal is to provide secure, efficient, and
+                    reliable technology solutions.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="contact">
+
+            <h1>Contact</h1>
+
+            <p>
+                <span class="material-symbols-outlined">mail</span>
+                s2502077@usls.edu.ph
+            </p>
+
+            <p>
+                <span class="material-symbols-outlined">location_on</span>
+                Victorias City, BRGY 5, Lopez St., Negros Occidental
+            </p>
+
+            <p>
+                <span class="material-symbols-outlined">call</span>
+                09391959407
+            </p>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
