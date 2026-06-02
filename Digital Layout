@@ -56,29 +56,29 @@
             font-weight:bold;
         }
 
-        .hero{
+        .home{
             display:flex;
             justify-content:space-around;
             align-items:center;
             padding:50px;
         }
 
-        .hero-text{
+        .home-text{
             width:50%;
             text-align:center;
         }
 
-        .hero-text h1{
+        .home-text h1{
             font-size:70px;
             margin-bottom:10px;
         }
 
-        .hero-text h2{
+        .home-text h2{
             font-size:45px;
             margin-top:0;
         }
 
-        .hero-text p{
+        .home-text p{
             font-size:28px;
         }
 
@@ -206,9 +206,9 @@
 
     <!-- HOME SECTION -->
 
-    <div class="hero">
+    <div class="home">
 
-        <div class="hero-text">
+        <div class="home-text">
 
             <h1>Rigel Karl D. Contrevida</h1>
 
