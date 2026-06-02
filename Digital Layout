@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -79,10 +82,10 @@
 
         .home img{
             width:300px;
-            border:3px solid rgb(0, 0, 0);
+            border:3px solid black;
         }
 
-        hm{
+        hr{
             border:2px solid black;
         }
 
@@ -96,30 +99,30 @@
             margin-top:0;
         }
 
-        /* SERVICES */
+        /* SKILLS */
 
-        .services{
+        .skills{
             display:flex;
             justify-content:space-around;
             flex-wrap:wrap;
             text-align:center;
         }
 
-        .services{
+        .card{
             width:300px;
             padding:20px;
         }
 
-        .services img{
+        .card img{
             width:150px;
             height:150px;
         }
 
-        .services h2{
+        .card h2{
             font-size:40px;
         }
 
-        .services p{
+        .card p{
             font-size:28px;
         }
 
@@ -164,6 +167,32 @@
             font-size:32px;
             margin-bottom:40px;
         }
+
+        @media(max-width:768px){
+
+            .home{
+                flex-direction:column;
+            }
+
+            .home-text{
+                width:100%;
+            }
+
+            .bottom{
+                flex-direction:column;
+            }
+
+            .about,
+            .contact{
+                width:100%;
+                border:none;
+            }
+
+            nav{
+                flex-wrap:wrap;
+                justify-content:center;
+            }
+        }
     </style>
 </head>
 
@@ -186,16 +215,16 @@
 
     <!-- HOME -->
 
-    <div class="hero">
+    <div class="home">
 
-        <div class="hero-text">
+        <div class="home-text">
 
             <h1>Rigel Karl D. Contrevida</h1>
 
             <h2>Network Manager</h2>
 
             <p>
-                Managing secure, reliable and high performance networks
+                Managing secure, reliable and high-performance networks
                 for businesses and organizations. Passionate about
                 cybersecurity, cloud systems, and efficient network
                 operations.
@@ -215,7 +244,7 @@
 
         <h1>Services</h1>
 
-        <div class="cards">
+        <div class="skills">
 
             <div class="card">
                 <img src="network.png">
@@ -241,7 +270,7 @@
                 <h2>Server Management</h2>
                 <p>
                     Maintaining servers, backups,
-                    and cloud based infrastructure
+                    and cloud-based infrastructure
                     for efficient operations.
                 </p>
             </div>
@@ -258,14 +287,14 @@
 
         <h1>Portfolio</h1>
 
-        <div class="cards">
+        <div class="skills">
 
             <div class="card">
                 <img src="tools.png">
                 <h2>Enterprise Network Setup</h2>
                 <p>
                     Designed and configured a secure
-                    multi department office network environment.
+                    multi-department office network environment.
                 </p>
             </div>
 
@@ -273,7 +302,7 @@
                 <img src="wifi.png">
                 <h2>Wireless Infrastructure Deployment</h2>
                 <p>
-                    Installed and optimized high speed
+                    Installed and optimized high-speed
                     wireless access points for stable connectivity.
                 </p>
             </div>
