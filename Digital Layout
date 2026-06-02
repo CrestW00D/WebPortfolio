@@ -114,7 +114,7 @@
         }
 
         .service-icon{
-            font-size:100px !important;
+            font-size:100px;
         }
 
         .card h2{
