@@ -49,40 +49,40 @@
             color:gold;
         }
 
-        /* HERO */
+        /* HOME */
 
-        .hero{
+        .home{
             display:flex;
             justify-content:space-around;
             align-items:center;
             padding:50px;
         }
 
-        .hero-text{
+        .home-text{
             width:50%;
             text-align:center;
         }
 
-        .hero-text h1{
+        .home-text h1{
             font-size:70px;
             margin-bottom:10px;
         }
 
-        .hero-text h2{
+        .home-text h2{
             font-size:45px;
             margin-top:0;
         }
 
-        .hero-text p{
+        .home-text p{
             font-size:30px;
         }
 
-        .hero img{
+        .home img{
             width:300px;
             border:3px solid rgb(0, 0, 0);
         }
 
-        hr{
+        hm{
             border:2px solid black;
         }
 
@@ -98,28 +98,28 @@
 
         /* SERVICES */
 
-        .cards{
+        .services{
             display:flex;
             justify-content:space-around;
             flex-wrap:wrap;
             text-align:center;
         }
 
-        .card{
+        .services{
             width:300px;
             padding:20px;
         }
 
-        .card img{
+        .services img{
             width:150px;
             height:150px;
         }
 
-        .card h2{
+        .services h2{
             font-size:40px;
         }
 
-        .card p{
+        .services p{
             font-size:28px;
         }
 
