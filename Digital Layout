@@ -42,6 +42,7 @@
             padding:10px;
             border-radius:8px;
             border:none;
+            pointer-events:none;
         }
 
         nav{
@@ -177,25 +178,25 @@
         <img src="logo.png" alt="Logo" class="logo">
 
         <input type="text" class="search" placeholder="Search">
-
+        
         <nav>
 
-            <a href="#about">
+            <a>
                 <span class="material-symbols-outlined">person</span>
                 ABOUT
             </a>
 
-            <a href="#services">
+            <a>
                 <span class="material-symbols-outlined">build</span>
                 SERVICES
             </a>
 
-            <a href="#portfolio">
+            <a>
                 <span class="material-symbols-outlined">work</span>
                 PORTFOLIO
             </a>
 
-            <a href="#contact">
+            <a>
                 <span class="material-symbols-outlined">call</span>
                 CONTACT
             </a>
@@ -350,7 +351,7 @@
 
     <div class="bottom">
 
-        <div class="about" id="about">
+        <div class="about">
 
             <h1>About</h1>
 
@@ -370,7 +371,7 @@
 
         </div>
 
-        <div class="contact" id="contact">
+        <div class="contact">
 
             <h1>Contact</h1>
 
